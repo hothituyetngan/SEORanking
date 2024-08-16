@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEORanking.API", "SEORanking.API\SEORanking.API.csproj", "{F664BC25-9CD5-4215-B064-C48E0CB2B360}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEORanking.Domain", "SEORanking.Domain\SEORanking.Domain.csproj", "{EA6D0735-33E8-46F6-B421-35652A638595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEORanking.Infrastructure", "SEORanking.Infrastructure\SEORanking.Infrastructure.csproj", "{73BEE008-2A49-499C-95C7-B0AC8C34D7B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEORanking.Application", "SEORanking.Application\SEORanking.Application.csproj", "{62EDD1FB-23BE-4DA0-B9AA-C002620DE849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEORanking.WebAPI.Tests", "SEORanking.WebAPI.Tests\SEORanking.WebAPI.Tests.csproj", "{4089744A-35EC-42BD-8564-20B3A27DA055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEORanking.Application.Tests", "SEORanking.Application.Tests\SEORanking.Application.Tests.csproj", "{B8F4FB77-9BAC-49CC-B789-98C2DA2FACCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEORanking.Infrastructure.Tests", "SEORanking.Infrastructure.Tests\SEORanking.Infrastructure.Tests.csproj", "{FD441916-4B1B-4E4E-A357-5A4DAA543239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F664BC25-9CD5-4215-B064-C48E0CB2B360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F664BC25-9CD5-4215-B064-C48E0CB2B360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F664BC25-9CD5-4215-B064-C48E0CB2B360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F664BC25-9CD5-4215-B064-C48E0CB2B360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6D0735-33E8-46F6-B421-35652A638595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6D0735-33E8-46F6-B421-35652A638595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6D0735-33E8-46F6-B421-35652A638595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6D0735-33E8-46F6-B421-35652A638595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BEE008-2A49-499C-95C7-B0AC8C34D7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BEE008-2A49-499C-95C7-B0AC8C34D7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BEE008-2A49-499C-95C7-B0AC8C34D7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BEE008-2A49-499C-95C7-B0AC8C34D7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EDD1FB-23BE-4DA0-B9AA-C002620DE849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EDD1FB-23BE-4DA0-B9AA-C002620DE849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EDD1FB-23BE-4DA0-B9AA-C002620DE849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EDD1FB-23BE-4DA0-B9AA-C002620DE849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4089744A-35EC-42BD-8564-20B3A27DA055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4089744A-35EC-42BD-8564-20B3A27DA055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4089744A-35EC-42BD-8564-20B3A27DA055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4089744A-35EC-42BD-8564-20B3A27DA055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F4FB77-9BAC-49CC-B789-98C2DA2FACCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F4FB77-9BAC-49CC-B789-98C2DA2FACCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F4FB77-9BAC-49CC-B789-98C2DA2FACCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F4FB77-9BAC-49CC-B789-98C2DA2FACCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD441916-4B1B-4E4E-A357-5A4DAA543239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD441916-4B1B-4E4E-A357-5A4DAA543239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD441916-4B1B-4E4E-A357-5A4DAA543239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD441916-4B1B-4E4E-A357-5A4DAA543239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37E0B7DE-D6F0-46EC-A98B-170031A2B02E}
+	EndGlobalSection
+EndGlobal
